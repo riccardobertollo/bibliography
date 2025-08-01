@@ -27,38 +27,183 @@
 ##### Parsing #####
 
 ##### Template #####
-#@article{key,
-	author = {},
-	title = {},
-	journal = {},
-	year = {},
-	volume = {},
-	number = {},
-	pages = {},
-	doi = {},
-	url = {},
-	keyworks = {},
-	abstract = {},
-	pdf = {},
-	github = {},
- author-str = {}
-}
+# article{key,
+#	author = {},
+#	title = {},
+#	journal = {},
+#	year = {},
+#	volume = {},
+#	number = {},
+#	pages = {},
+#	doi = {},
+#	url = {},
+#	keyworks = {},
+#	abstract = {},
+#	pdf = {},
+#	github = {},
+#   author-str = {}
+# }
 
-##### Bibtext entries #####
+##### Bibtex entries #####
 
 ## 2025 ##
 
-@article{BertolloTeel23,
+@misc{HercegArxiv25Scenario,
+	author = {Herceg, D. and {Dell'Oro}, M. and Bertollo, R. and Miura, F. and {de Klavier}, P. and Breschi, V. and Krishnamoorthy, D. and Salazar, M.},
+	title = {A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions},
+	note = {ArXiv preprint 2506.17972},
+	year = {2025},
+	doi = {10.48550/arXiv.2506.17972},
+	url = {https://arxiv.org/abs/2506.17972},
+	author-str = {D. Herceg, M. Dell'Oro, R. Bertollo, F. Miura, P. de Klaver, V. Breschi, D. Krishnamoorthy, M. Salazar}
+}
+
+@article{BertolloAut25Hybrid,
+	author = {Bertollo, R. and Lunardi, G. and {Del Prete}, A. and Zaccarian, L.},
+	title = {Hybrid {L}yapunov-based feedback stabilization of bipedal locomotion based on reference spreading},
+	journal = {Automatica},
+	volume = {174},
+	pages = {112106},
+	year = {2025},
+	doi = {10.1016/j.automatica.2024.112106},
+	url = {https://www.sciencedirect.com/science/article/pii/S0005109824005995},
+	keywords = {Hybrid dynamical systems, Bipedal locomotion, Reference spreading, Convex optimization},
+	abstract = {We propose a hybrid formulation of the linear inverted pendulum model for bipedal locomotion, where the foot switches are triggered based on the center of mass position, removing the need for pre-defined footstep timings. Using a concept similar to reference spreading, we define nontrivial tracking error coordinates induced by our hybrid model. These coordinates enjoy desirable linear flow dynamics and rather elegant jump dynamics perturbed by a suitable extended class K∞ function of the position error. We stabilize this hybrid error dynamics using a saturated feedback controller, selecting its gains by solving a convex optimization problem. We prove local asymptotic stability of the tracking error and provide a certified estimate of the basin of attraction, comparing it with a numerical estimate obtained from the integration of the closed-loop dynamics. Simulations on a full-body model of a real robot show the practical applicability of the proposed framework and its advantages with respect to a standard model predictive control formulation.},
+	author-str = {R. Bertollo, G. Lunardi, A. {Del Prete} and L. Zaccarian},
+}
+
+## 2024 ##
+
+@ARTICLE{BertolloLCSS24Integrate,
+	author={Bertollo, R. and Schwegel, M. and Kugi, A. and Zaccarian, L.},
+	title={Integrate-and-Reset Feedback and Feedforward for a Solenoid With Unknown Parameters},
+	journal={IEEE Control Systems Letters},
+	year={2024},
+	volume={8},
+	number={},
+	pages={1511-1516},
+	doi={10.1109/LCSYS.2024.3413360},
+	url={https://ieeexplore.ieee.org/abstract/document/10555300},
+	keywords={Feedforward systems;Solenoids;Covariance matrices;Adaptive control;Vectors;Symmetric matrices;Robustness;Adaptive control;hybrid dynamical systems;reset control;mechatronic systems},
+	abstract={We propose a hybrid feedback-feedforward control scheme for output current tracking in a solenoid, based on an integrate-and-reset paradigm. The feedback, based on a First-Order Reset Element, produces stabilizing inputs comprising diverging exponentials, inducing an aggressive feedback correction. The feedforward uses a hybrid recursive least-squares method with directional forgetting. The hybrid nature of the control loop allows using non-exponentially stable filters, which preserve the past information, as opposed to the stable filters typically used in the adaptive control literature. We prove stability of both the estimation and the tracking error, also using a novel result on forward invariance of a desirable set where the information matrix evolves. Experimental results confirm the effectiveness of the proposed hybrid control scheme.},
+	author-str={R. Bertollo, M. Schwegel, A. Kugi and L. Zaccarian}
+}
+
+@article{MarianoAut24Hybrid,
+	author = {Mariano, S. and Bertollo, R. and Postoyan, R. and Zaccarian, L.},
+	title = {Hybrid coupling rules for leaderless heterogeneous oscillators: Uniform global asymptotic and finite-time synchronization},
+	journal = {Automatica},
+	volume = {159},
+	pages = {111324},
+	year = {2024},
+	issn = {0005-1098},
+	doi = {10.1016/j.automatica.2023.111324},
+	url = {https://www.sciencedirect.com/science/article/pii/S0005109823004909},
+	keywords = {Cyber-physical systems, Synchronization, Hybrid dynamical systems, Multi-agent systems, Uniform stability, Finite-time stability, Lyapunov methods},
+	abstract = {We investigate the engineering scenario where the objective is to synchronize heterogeneous oscillators in a distributed fashion. The internal dynamics of each oscillator are general enough to capture their time-varying natural frequency as well as physical couplings and unknown bounded terms. A communication layer is set in place to allow the oscillators to exchange synchronizing coupling actions through a tree-like leaderless network. In particular, we present a class of hybrid coupling rules depending only on local information to ensure uniform global practical or asymptotic synchronization, which is impossible to obtain by using the Kuramoto model customarily used in the literature. We further show that the synchronization set can be made uniformly globally prescribed finite-time stable by selecting the coupling function to be discontinuous at the origin. Novel mathematical tools on non-pathological functions and set-valued Lie derivatives are developed to carry out the stability analysis. The effectiveness of the approach is illustrated in simulations where we apply our synchronizing hybrid coupling rules to models of power grids previously used in the literature.},
+	author-str = {S. Mariano, R. Bertollo, R. Postoyan and L. Zaccarian},
+}
+
+## 2023 ##
+
+@mastersthesis{Bertollo23PhDThesis,
+	title = {Hybrid Solutions for Mechatronics. Applications to modeling and controller design.},
+	author = {Bertollo, R.},
+	year = {2023},
+	keywords = {Hybrid dynamical systems; Lyapunov methods; Stability analysis; Mechatronics engineering; Reset control; Nonsmooth analysis; Network dynamics; Bipedal locomotion; Smart agriculture},
+	abstract = {The task of modeling and controlling the evolution of dynamical sys- tems is one of the main objectives in mechatronics engineering. When approaching the problem of controlling physical or digital systems, the dynamical models have been historically divided into continuous-time, described by differential equations, and discrete-time, described by difference equations. In the last decade, a new class of models, known as hybrid dynamical systems, has gained popularity in the control community because of its high versatility. This framework combines continuous-time and discrete- time evolution, thus allowing for both the description of a broader class of systems and the achievement of better-performing controllers, compared to the traditional continuous-time alternatives. After the first rigorous introduction of the framework, several Lyapunov-based results were published in the literature, and numerous application areas were shown to benefit from the introduction of a hybrid dynamics, like systems involving impacts or physical systems connected to digital controllers (cyber-physical systems). In this thesis, we use the hybrid framework to study different mechatronics-inspired control problems. The applications we consider are diverse, so we split the presentation into three parts. In the first part we further analyze a particular hybrid control strategy, known as reset control, providing some new theoretical guarantees, together with an application to adaptive control. In the second part we consider two applications of the hybrid framework to the network dynamics field, specifically we analyze the problems of distributed state estimation and of uniform synchronization of nonlinear oscillators. In the third part, we use a hybrid approach to study two applications where this framework has been rarely employed, or not at all, namely smart agriculture and trajectory tracking for a bipedal walking robot. We study these application-inspired problems from a theoretical point of view, giving robust Lyapunov-based stability guarantees. We complement the theoretical analysis with numerical results, obtained from simulations or from experiments.},
+	school  = {PhD school in Materials, Mechatronics and Systems Engineering - University of Trento},
+	pdf = {https://iris.unitn.it/retrieve/922bcfcc-d19f-4abd-aa48-53772cc90a6a/bertollo_thesis%20%284%29.pdf},
+	url = {https://hdl.handle.net/11572/372287},
+	author-str = {R. Bertollo}
+}
+
+## 2022 ##
+
+@article{BertolloTAC23Soft,
 	author = {Bertollo, Riccardo and Teel, Andrew R. and Zaccarian, Luca},
+	title = {Soft-Reset Control With Max-of-Quadratics {L}yapunov Certificates}, 
 	journal = {IEEE Transactions on Automatic Control}, 
-	title = {Soft-Reset Control With Max-of-Quadratics Lyapunov Certificates}, 
 	year = {2023},
 	volume = {68},
 	number = {9},
 	pages = {5245-5257},
-	doi = {},
+	doi = {10.1109/TAC.2022.3221684},
 	url = {https://ieeexplore.ieee.org/abstract/document/9946305/keywords#keywords},
 	keywords = {Control systems, Convex functions, Lyapunov methods, Control theory, Asymptotic stability, Tuning, Trajectory},
 	abstract = {In this article, we further develop a novel control paradigm encoding the core behavior of a reset control system within a continuous-time feedback, described by a differential inclusion. A tuning knob allows adjusting how close the continuous-time feedback resembles the behavior of the underlying reset controller. The Lyapunov conditions that we derive naturally lead to a sum-of-squares formulation allowing for the design of max-of-quadratics Lyapunov certificates associated with polynomial multipliers. A few application examples confirm the practical effectiveness of the proposed solutions.},
 	author-str = {R. Bertollo, A.R. Teel and L. Zaccarian}
+}
+
+@ARTICLE{BertolloLCSS22Distributed,
+	author={Bertollo, R. and Mill\'{a}n, P. and Orihuela, L. and Seuret, A. and Zaccarian, L.},
+	title={Distributed Hybrid Observer With Prescribed Convergence Rate for a Linear Plant Using Multi-Hop Decomposition}, 
+	journal={IEEE Control Systems Letters}, 
+	year={2023},
+	volume={7},
+	number={},
+	pages={331-336},
+	doi={10.1109/LCSYS.2022.3188476},
+	url = {https://ieeexplore.ieee.org/abstract/document/9815089},
+	keywords={Observers;Robot sensing systems;Time measurement;Observability;Information exchange;Power system stability;Noise measurement;Observers for linear systems;sensor networks;hybrid systems},
+	abstract={We propose a distributed hybrid observer for a sensor network where the plant and local observers run in continuous time and the information exchange among the sensing nodes is sampled-data. Process disturbances, measurement noise and communication noise are considered, and we prove that under some necessary detectability assumptions the observer gains can be tuned to guarantee exponential Input-to-State Stability with a prescribed convergence rate. Simulations illustrate the performance of the proposed observer.},
+	author-str={R. Bertollo, P. Millán, L. Orihuela, A. Seuret and L. Zaccarian}
+}
+
+
+@inproceedings{BertolloAgricontrol22Hybrid,
+	author = {Bertollo, R. and C\'{a}ceres, G.B. and Mill\'{a}n, P. and Pereira, M. and Zaccarian, L.},
+	title = {A hybrid dynamical systems approach to smart irrigation},
+	booktitle = {IFAC PapersOnLine (IFAC Conference on Sensing, Control and Automation Technologies for Agriculture - AGRICONTROL)},
+	volume = {55},
+	number = {32},
+	pages = {188-193},
+	year = {2022},
+	doi = {10.1016/j.ifacol.2022.11.137},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896322027707},
+	abstract = {We present a novel model for a drip irrigation system, using a hybrid dynamical systems paradigm to take into account the intrinsic binary nature of the control input. We consider an irrigation pipe with a generic number of drippers, analyzing the effect that the transients in the pipe have on the irrigation uniformity, and propose an intuitive irrigation strategy based on the one currently used by farmers. The model is presented together with simulations, whose parameters are based on real farm data.},
+	author-str = {R. Bertollo, G.B. Cáceres, P. Millán, M. Pereira and L. Zaccarian}
+}
+
+## 2021 ##
+
+@inproceedings{BertollADHS21Reset,
+	author = {Bertollo, R. and Schwegel, M. and Kugi, A. and Zaccarian, L.},
+	title = {Reset-control-based current tracking for a solenoid with unknown parameters},
+	booktitle={IFAC-PapersOnLine (IFAC Conference on Analysis and Design of Hybrid Systems - ADHS)},
+	volume = {54},
+	number = {5},
+	pages = {199-204},
+	year = {2021},
+	doi = {10.1016/j.ifacol.2021.08.498},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896321012738},
+	abstract = {We propose a hybrid controller for reference tracking for the output current of a solenoid. The solenoid can be modeled as a first-order linear plant with unknown parameters. The proposed hybrid controller comprises 1) a feed forward action, based on an estimate of the unknown plant parameters exploiting a hybrid formulation of the recursive least-squares method, and 2) a feedback action, exploiting a reset control scheme based on a first-order reset element. We prove stability properties for the closed-loop system and we show through simulations that the current output converges to the reference for sufficiently exciting reference signals.},
+	author-str = {R. Bertollo, M. Schwegel, A. Kugi and L. Zaccarian}
+}
+
+## 2020 ##
+
+@inproceedings{BertolloIFAC20Uniform,
+	author = {Bertollo, R. and Panteley, E. and Postoyan, R. and Zaccarian, L.},
+	title = {Uniform global asymptotic synchronization of {K}uramoto oscillators via hybrid coupling},
+	booktitle = {IFAC-PapersOnLine (IFAC World Congress)},
+	volume = {53},
+	number = {2},
+	pages = {5819-5824},
+	year = {2020},
+	doi = {10.1016/j.ifacol.2020.12.1626},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405896320322229},
+	keywords = {Kuramoto model, hybrid systems, nonlinear control, networked oscillators, synchronization},
+	abstract = {Using a hybrid framework, we propose a generalized version of the well-known Kuramoto model for interconnected oscillators. The proposed model does not modify the classical model close to the synchronization set, but avoids the typical non-uniform convergence phenomenon. For the two-oscillators case, we prove the uniform global asymptotic stability of the consensus set by using a hybrid Lyapunov function whose generality promises possible extension of the result to higher order dynamics. We comparatively illustrate the achieved uniform convergence properties by simulating both the case with two and multiple oscillators, thus confirming the effectiveness of our approach.},
+	author-str = {R. Bertollo, E. Panteley, R. Postoyan and L. Zaccarian}
+}
+
+## 2019 ##
+@mastersthesis{Bertollo19Thesis,
+	title = {Hybrid synchronization of networked oscillators.},
+	author = {Bertollo, R.},
+	year = {2019},
+	school  = {University of Trento},
+	url = {https://webapps.unitn.it/Biblioteca/en/Web/RichiestaConsultazioneTesi/366298},
+	author-str = {R. Bertollo}
 }

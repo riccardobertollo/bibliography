@@ -1,0 +1,5 @@
+- citation: "D. Herceg, M. Dell'Oro, R. Bertollo, F. Miura, P. de Klaver, V. Breschi, D. Krishnamoorthy, M. Salazar, <b>'A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions'</b>, <i>ArXiv preprint 2506.17972</i>, 2025. doi: 10.48550/arXiv.2506.17972."
+  url: https://arxiv.org/abs/2506.17972
+  bibtex: "@misc{HercegArxiv25Scenario,<br>author = {Herceg, D. and {Dell'Oro}, M. and Bertollo, R. and Miura, F. and {de Klavier}, P. and Breschi, V. and Krishnamoorthy, D. and Salazar, M.},<br>title = {A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions},<br>note = {ArXiv preprint 2506.17972},<br>year = {2025},<br>doi = {10.48550/arXiv.2506.17972}<br>}"
+
+
